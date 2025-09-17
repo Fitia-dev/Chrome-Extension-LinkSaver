@@ -1,0 +1,79 @@
+:root {
+  --btn-color: #0059ff;
+  --btn-hover-color: rgb(3, 77, 146);
+}
+
+input {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+}
+
+body {
+  min-width: 350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+.btn {
+  width: fit-content;
+  background-color: var(--btn-color);
+  color: white;
+  border: 1px solid var(--btn-color);
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-weight: 700;
+  margin-left: 0.5rem;
+}
+
+.delete {
+  background-color: white;
+  color: var(--btn-color);
+}
+
+.btn:hover {
+  background-color: var(--btn-hover-color);
+  color: #f7f8f8;
+}
+
+ul {
+  margin-left: 0.5rem;
+  padding-left: 0;
+}
+
+li {
+  line-height: 1.5;
+  list-style: none;
+}
+
+a {
+  color: var(--btn-color);
+}
+
+span {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  margin: 0.5rem 0.5rem;
+  border-radius: 0 1rem 1rem 0;
+  transition: all 0.5s ease;
+  border-left: 2px solid green;
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
+  background-color: #45ff4541;
+  width: fit-content;
+}
+
+li {
+  margin: 5px 0px;
+  background-color: #b9b9b973;
+  padding: 0.5rem;
+  border-radius: 8px;
+  display: flex;
+  width: fit-content;
+  justify-content: space-between;
+}
+
+.btnDelete {
+  margin-left: 1rem;
+}
